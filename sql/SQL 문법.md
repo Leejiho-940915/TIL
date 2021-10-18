@@ -13,6 +13,21 @@ create database 데이터베이스이름 character set 문자표 collate utf8_ge
 
 -- 데이터베이스를 사용할 사용자의 권한을 지정
 grant all on studydb.* to 'study'@'localhost';
+
+
+/*
+-- 사용자 추가
+create user 'happyshare'@'localhost' identified by '1111';
+
+create user 'happyshare'@'%' identified by '1111';
+
+-- 데이터를 저장할 데이터 베이스 생성
+create database happysharedb character set utf8 collate utf8_general_ci;
+
+create database 데이터베이스이름 character set 문자표 collate utf8_general_ci;
+
+-- 데이터베이스를 사용할 사용자의 권한을 지정
+grant all on happysharedb.* to 'happyshare'@'localhost';*/
 ```
 
 
