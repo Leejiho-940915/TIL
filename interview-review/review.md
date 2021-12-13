@@ -1,0 +1,3 @@
+- tostring 과 equals 는 왜 객체를 안만들고 바로사용하는지
+- servlet에서와 spring에서의 작업의 차이점
+- ajax란?
