@@ -1,5 +1,7 @@
 # Linux 파일(File) 관련 명령어(Command)
 
+
+
 - ` ls ` = 디렉토리(directory) 목록 **나열**하기 (윈도우에 dir과 같은 명령어)
 - ` ls -al ` = 숨김파일(hidden file)도 포함한 **상세 목록 나열**하기
 - ` cd dir ` = 지정 dir(해당폴더) 로 작업 디렉토리 **이동**하기
